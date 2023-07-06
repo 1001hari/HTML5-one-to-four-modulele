@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahim er ma ar pitha ghor</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+
+        <section>
+            <h1>Please fill up the form</h1>
+             <form>
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="email">Your Email:
+                    <input id="email" type="text" placeholder="Your Email">
+                </label>
+                <label for="number">Your Phone:
+                    <input id="number" type="text" placeholder="Your Phone">
+                </label>
+                 
+                <!--form er modda sudu 1 ta option ey select korte parbo parte hole input field theka radio option ta select korte hobe-->
+                <fieldset>
+                    <legend>Pick one Pitha</legend>
+                    <label for="Vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="Chitoy">
+                        <input type="radio" name="pitha" id="chitoy">Chitoy
+                    </label>
+                    <label for="">
+                        <input type="radio" name="pitha" id="puri">Puri
+                    </label>
+                </fieldset>
+                <br>
+
+                <!--more than one sption select from input field -->
+
+                <fieldset>
+                    <legend>Pick one or more vorta</legend>
+                    <label for="Sorisa">
+                        <input type="checkbox" name="vorta" id="sorisa">Sorisa
+                    </label>
+                    <label for="Jhal">
+                        <input type="checkbox" name="vorta" id="Jhal">Jhal
+                    </label>
+                    <label for="Chatni">
+                        <input type="checkbox" name="vorta" id="Chatni">Chatni
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="3"></textarea>
+                </fieldset>
+                <br>
+
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+
+                
+            </form>
+        </section>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
