@@ -1,0 +1,40 @@
+.image-search {
+    font-size: 20px;
+
+    
+
+}
+#btn{
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.box{
+    border: 1px solid black;
+    padding:10px 25px;
+}
+
+.same{
+    margin-top: 20px;
+}
+
+.extra{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#first{
+    padding:10px 50px;
+}
+
+#second{
+    padding:10px 75px;
+
+}
+
+#last{
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+
